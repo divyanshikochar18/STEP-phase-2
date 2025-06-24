@@ -1,0 +1,17 @@
+#include<iostream>
+using namespace std;
+int main() {
+	long long number;
+    cout <<"Enter the number:";
+    cin>> number;
+	long long factor = 2;
+	while(factor <= number) {
+		if(number%factor == 0) {
+			number /= factor;
+		}
+		else {
+			factor++;
+		}
+	}
+	cout << factor<<endl;
+}
