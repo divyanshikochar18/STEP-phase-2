@@ -13,7 +13,7 @@ int main(){
     int limit;
     cout<<"Enter the number: ";
     cin >> limit;
-    cout << "Prime numbers less than "<< limit << "are: ";
+    cout << "Prime numbers less than "<< limit << " are: ";
     for(int i = 2;i<limit;i++){
         if(isPrime(i)){
             cout<<i<<" ";    
